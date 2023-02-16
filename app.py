@@ -285,7 +285,7 @@ with pan:
 
 with example:
     st.header('史例')
-    st.markdown(get_file_content_as_string("example.md"))
+    st.markdown(get_file_content_as_string('example.md'))
     
 with guji:
     st.header('古籍')
