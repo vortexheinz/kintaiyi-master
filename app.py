@@ -16,8 +16,7 @@ import os, urllib
 
 
 def get_file_content_as_string(path):    
-    url = 'https://github.com/vortexheinz/kintaiyi-master/blob/master/' + path
-    print("路徑{}路徑\n",url)
+    url = 'https://github.com/vortexheinz/kintaiyi-master/blob/master/' + path   
     response = urllib.request.urlopen(url)
     return response.read().decode("utf-8")
 
@@ -301,8 +300,8 @@ with disaster:
    
 with ins:
     st.header('使用說明2')
-    st.markdown(get_file_content_as_string("instruction2.md"))
-    
+    #st.markdown(get_file_content_as_string("instruction2.md"))
+    print("路徑{}路徑\n",get_file_content_as_string("instruction2.md"))
     #outputx = st.empty()
     #outputx = get_file_content_as_string("instruction2.md")
     #st.markdown(outputx)
