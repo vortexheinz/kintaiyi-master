@@ -301,7 +301,7 @@ with disaster:
 with ins:
     st.header('使用說明2')
     html_string = get_file_content_as_string("instruction2.md")
-    st.markdown(html_string, unsafe_allow_html=True)
+    st.markdown(html_string, unsafe_allow_html=False)
     #st.text('instruction2.md')
     
     #print("路徑{}路徑\n",get_file_content_as_string("instruction2.md"))    
