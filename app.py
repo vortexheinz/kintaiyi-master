@@ -299,7 +299,7 @@ with disaster:
     st.markdown(get_file_content_as_string("disaster.md"))
    
 with ins:
-    st.header('使用說明')
+    st.header('使用說明2')
     outputx = st.empty()
     outputx = get_file_content_as_string("instruction2.md")
     st.markdown(outputx)
