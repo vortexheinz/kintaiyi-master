@@ -16,7 +16,8 @@ import os, urllib
 
 
 def get_file_content_as_string(path):    
-    url = 'https://github.com/vortexheinz/kintaiyi-master/blob/master/' + path   
+    #url = 'https://github.com/vortexheinz/kintaiyi-master/blob/master/' + path
+    url = 'https://raw.githubusercontent.com/vortexheinz/kintaiyi-master/master/' + path
     response = urllib.request.urlopen(url)    
     return response.read().decode("utf-8")
 
