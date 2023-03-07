@@ -1094,7 +1094,7 @@ class Taiyi():
                 "客算":[self.away_cal(ji,tn), self.cal_des(self.away_cal(ji,tn))],
                 #"客將":self.away_general(ji,tn),
                 #"客參":self.away_vgen(ji,tn),
-                #"定算":[self.set_cal(ji,tn), self.cal_des(self.set_cal(ji,tn))],
+                "定算":[self.set_cal(ji,tn), self.cal_des(self.set_cal(ji,tn))],
                 "合神":self.hegod(ji),
                 "計神":self.jigod(ji),
                 "定目":self.se(ji,tn),
